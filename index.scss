@@ -14,12 +14,14 @@
     
     .hero{
         padding: 1rem;
-        
+        min-width: 40%;
         width: fit-content;
         margin: 0 auto;
 
         textarea{
             padding: 1rem;
+            height: 30vh;
+            width: 100%;
         }
        
 
@@ -44,15 +46,14 @@
     footer{
         background: #F2C94C;
         padding: 1rem;
-        position: absolute;
-        bottom: 0;
-        width: 100%;
+        
+        
 
         .footer-content{
             margin: auto;
             width: 50%;
             text-align: center;
-            padding: 2rem 5rem;
+            padding: 2rem;
         }
         
     }

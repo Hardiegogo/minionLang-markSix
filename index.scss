@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding:0;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+.app{
+    header{
+        background-color: #F2C94C;
+        text-align: center;
+        padding: 2rem;
+    }
+    
+    .hero{
+        padding: 1rem;
+        
+        width: fit-content;
+        margin: 0 auto;
+
+        textarea{
+            padding: 1rem;
+        }
+       
+
+        #btn-translate{
+            display: block;
+            padding: 1rem;
+            background-color: #F2C94C;
+            margin: 1rem 0;
+            border: none;
+            font-size: 1rem;
+        }
+
+        .banana-output{
+            width: 100%;
+            border: 1px solid black;
+            min-height: 5rem;
+            overflow: scroll;
+            padding: 1rem;
+        }
+    }
+
+    footer{
+        background: #F2C94C;
+        padding: 1rem;
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+
+        .footer-content{
+            margin: auto;
+            width: 50%;
+            text-align: center;
+            padding: 2rem 5rem;
+        }
+        
+    }
+}

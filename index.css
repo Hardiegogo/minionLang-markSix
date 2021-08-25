@@ -1,1 +1,56 @@
-/* No CSS *//*# sourceMappingURL=index.css.map */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.app header {
+  background-color: #F2C94C;
+  text-align: center;
+  padding: 2rem;
+}
+
+.app .hero {
+  padding: 1rem;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 0 auto;
+}
+
+.app .hero textarea {
+  padding: 1rem;
+}
+
+.app .hero #btn-translate {
+  display: block;
+  padding: 1rem;
+  background-color: #F2C94C;
+  margin: 1rem 0;
+  border: none;
+  font-size: 1rem;
+}
+
+.app .hero .banana-output {
+  width: 100%;
+  border: 1px solid black;
+  min-height: 5rem;
+  overflow: scroll;
+  padding: 1rem;
+}
+
+.app footer {
+  background: #F2C94C;
+  padding: 1rem;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.app footer .footer-content {
+  margin: auto;
+  width: 50%;
+  text-align: center;
+  padding: 2rem 5rem;
+}
+/*# sourceMappingURL=index.css.map */
